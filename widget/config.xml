@@ -21,6 +21,7 @@
 	<preference name="smartUpdate" value="false" />
 	<preference name="debug" value="true"/>
 	<preference name="statusBarAppearance" value="true"/>
+	<preference name="querySchemes" value="mqq,mqqapi"/>
 	<permission name="readPhoneState" />
 	<permission name="camera" />
 	<permission name="record" />
@@ -43,7 +44,7 @@
 		<param name="apiSecret" value="13c75de4dc94d863cbfd401bb6df46cd"/>
 
 	</feature>
-	<feature name="qq">
+	<feature name="QQPlus">
 		<param name="urlScheme" value="tencent101064640" />
 		<param name="apiKey" value="101064640" />
 	</feature>
