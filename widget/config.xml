@@ -22,6 +22,7 @@
 	<preference name="debug" value="true"/>
 	<preference name="statusBarAppearance" value="true"/>
 	<preference name="querySchemes" value="mqq,mqqapi"/>
+ 	<preference name="querySchemes" value="sinaweibohd,sinaweibo,weibosdk,weibosdk2.5" />
 	<permission name="readPhoneState" />
 	<permission name="camera" />
 	<permission name="record" />
@@ -30,17 +31,9 @@
 	<permission name="internet" />
 	<permission name="bootCompleted" />
 	<permission name="hardware" />
-	<feature name="sinaWeiBo">
-		<param name="urlScheme" value="wb1132217156" />
-		<param name="apiKey" value="1132217156" />
-		<param name="registUrl" value="http://www.apicloud.com" />
-	</feature>
 	<feature name="wx">
-
 		<param name="urlScheme" value="wx1a401384100a6b41"/>
-
 		<param name="apiKey" value="wx1a401384100a6b41"/>
-
 		<param name="apiSecret" value="e766ee61afc3fbf76105f5641f225046"/>
 
 	</feature>
@@ -48,7 +41,7 @@
 		<param name="urlScheme" value="tencent101064640" />
 		<param name="apiKey" value="101064640" />
 	</feature>
-	<feature name="weibo">
+	<feature name="weiboPlus">
 		<param name="urlScheme" value="wb1132217156" />
 		<param name="apiKey" value="1132217156" />
 		<param name="registUrl" value="http://www.apicloud.com" />
