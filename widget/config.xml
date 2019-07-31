@@ -37,11 +37,11 @@
 	</feature>
 	<feature name="wx">
 
-		<param name="urlScheme" value="wx8cd679467feb854a"/>
+		<param name="urlScheme" value="wx1a401384100a6b41"/>
 
-		<param name="apiKey" value="wx8cd679467feb854a"/>
+		<param name="apiKey" value="wx1a401384100a6b41"/>
 
-		<param name="apiSecret" value="13c75de4dc94d863cbfd401bb6df46cd"/>
+		<param name="apiSecret" value="e766ee61afc3fbf76105f5641f225046"/>
 
 	</feature>
 	<feature name="QQPlus">
